@@ -1,4 +1,13 @@
 <?php get_header(); ?>
+
+
+
+<div>
+  <h1>Hello wordl</h1>
+</div>
+
+
+
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <?php the_title(); ?>
  <?php         if(has_post_thumbnail()){
