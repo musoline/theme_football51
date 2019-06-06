@@ -1,11 +1,14 @@
 <?php get_header(); ?>
 
 
-
-<div class="single-head">
-  <h1>Hello 1 wordl</h1>
-</div>
-
+ 
+<article class="single-article">
+  <div class="single-thumbnail">
+    <img src="<?php         if(has_post_thumbnail()){
+      the_post_thumbnail();  
+    } ?>" alt="">
+  </div>
+</article>
 
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
