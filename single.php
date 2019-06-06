@@ -2,7 +2,7 @@
 
 
 
-<div>
+<div class="single-head">
   <h1>Hello wordl</h1>
 </div>
 
