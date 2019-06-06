@@ -11,9 +11,21 @@
 .menu-menu-1-container ul.menu{
     display: flex;
     justify-content: space-between;
-    
+
 }
 
+.menu-menu-1-container ul.menu li.menu-item{
+    list-style: none;
+    margin: 3px;
+    background-color: gray;
+}
+
+.menu-menu-1-container ul.menu li.menu-item a{
+    text-decoration: none;
+}
+.menu-menu-1-container ul.menu li.menu-item a:hover{
+    background-color: #fff;
+}
 
 
 
