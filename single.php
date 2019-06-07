@@ -4,7 +4,12 @@
   <?php the_title(); ?>
   <article class="single-article">
     <div class="single-article-thumbnail">
-        <img src="<?php if(has_post_thumbnail()){ the_post_thumbnail();} ?>" alt="">
+        <img src="
+        <?php if(has_post_thumbnail())
+        {
+          the_post_thumbnail_url( 'medium' );
+        } ?>
+        " alt="">
     </div>
     <div class="single-article-info">
       <p class="single-article-text">
