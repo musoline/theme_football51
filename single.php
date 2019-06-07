@@ -16,7 +16,7 @@
       </div>
       <div class="single-article-info">
           <?php the_content(); ?>
-          <?php echo"Hello Wordl";?>
+          <?php echo"Hello Wordl"; ?>
       </div>
     </article>
   <?php echo get_the_date(); ?>
