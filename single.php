@@ -18,6 +18,13 @@
           <?php the_content(); ?>
           <?php echo "Hello Wordl"; ?>
       </div>
+
+
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium itaque veritatis autem tenetur blanditiis sapiente quae sequi quisquam, atque, dolor numquam, nihil sit eveniet ad eligendi voluptates necessitatibus! Sunt, voluptatem.
+        </p>
+      </div>
     </article>
   <?php echo get_the_date(); ?>
   <?php endwhile; ?>
