@@ -34,9 +34,9 @@
     width: 720px;
     margin: 0 auto;
   }
-  .container .single-article .single-article-title {
+  .container .single-article h2.single-article-title {
     color: red;
-    font-size: 3px;
+    font-size: 36px;
     padding: 10px;
     text-align: center;
     font-weight: bold;
@@ -46,7 +46,6 @@
   }
   .container .single-article .single-article-thumbnail img {
     width: 100%;
-    height: 100%;
   }
   .container .single-article .single-article-info {
     padding: 5px;
