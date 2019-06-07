@@ -2,10 +2,8 @@
 
 // სტილების შემოტანა
 function add_theme_styles() {
-
-  wp_enqueue_style( 'style', get_stylesheet_uri(). '/assets/css/style.css');
  
-  wp_enqueue_style( 'font', get_template_directory_uri() . '/assets/css/style.css');
+  wp_enqueue_style( 'style', get_template_directory_uri() . '/assets/css/style.css');
 
 
 }
@@ -13,7 +11,7 @@ function add_theme_styles() {
 function add_theme_scripts(){
     // wp_deregister_script('jquery');
 
-    wp_enqueue_script( 'script', get_template_directory_uri() . '/js/script.js', array ( 'jquery' ), 1.1, true);
+    wp_enqueue_script( 'script', get_template_directory_uri() . '/assets/js/script.js', array ( 'jquery' ), 1.1, true);
 
 }
 
