@@ -13,9 +13,7 @@
           " alt="">
       </div>
       <div class="single-article-info">
-        <p class="single-article-text">
-          <?php the_content(); ?>      
-        </p>
+          <?php the_content(); ?>
       </div>
     </article>
   <?php echo get_the_date(); ?>
