@@ -9,7 +9,7 @@ if ( have_posts() ) :
         <div>
             <?php the_content(""); ?>
         </div>
-        <a href= "<?php get_the_permalink();?>" alt="">Read More</a>
+        <a href="<?php the_permalink(); ?>">Read more</a>        
         <?php
 	endwhile;
 else :
