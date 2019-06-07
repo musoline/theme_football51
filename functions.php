@@ -11,7 +11,7 @@ function add_theme_styles() {
 function add_theme_scripts(){
     // wp_deregister_script('jquery');
 
-    wp_enqueue_script( 'script', get_template_directory_uri() . '/assets/js/script.js', array ( 'jquery' ), 1.1, true);
+    wp_enqueue_script( 'script', get_template_directory_uri() . '/assets/js/main.js', array ( 'jquery' ), 1.1, true);
 
 }
 

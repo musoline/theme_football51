@@ -27,13 +27,19 @@
     background-color: #fff;
 }
 
-
 .container {
     width: 100%;
   }
   .container .single-article {
     width: 720px;
     margin: 0 auto;
+  }
+  .container .single-article .single-article-title {
+    color: red;
+    font-size: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
   }
   .container .single-article .single-article-thumbnail {
     width: 100%;

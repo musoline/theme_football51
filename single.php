@@ -4,6 +4,9 @@
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <?php the_title(); ?>
     <article class="single-article">
+      <h2 class="single-article-title">
+        <?php the_title(); ?>
+      </h2>
       <div class="single-article-thumbnail">
           <img src="
           <?php if(has_post_thumbnail())
