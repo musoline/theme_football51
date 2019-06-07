@@ -16,7 +16,7 @@ if ( have_posts() ) :
        
             <?php the_content(""); ?>
             
-            <a href="<?php the_permalink(); ?>">Read more</a>
+            <a href="<?php get_the_permalink(); ?>">Read more</a>
         </div>
 <?php 
 	endwhile;
