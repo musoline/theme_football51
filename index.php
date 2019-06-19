@@ -2,9 +2,6 @@
 get_header(); 
 ?>
 
-
-
-<div class="team_history">
 <?php
 $args = array('page_id'=>77);
 $the_query = new WP_Query( $args );
@@ -23,14 +20,7 @@ if ( $the_query->have_posts() ) {
         }
 
 } ?>
-</div>
 
-
-
-
-
-
-<div class="news">
 <?php
 $args = array('cat'=>1, 'post_per_page'=> 10 );
 $the_query = new WP_Query( $args );
@@ -49,7 +39,7 @@ if ( $the_query->have_posts() ) {
         }
 
 } ?>
-</div>
 <?php 
+
 
 get_footer();
